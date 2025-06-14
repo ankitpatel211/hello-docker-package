@@ -30,8 +30,7 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
-            branch=${{ github.ref_name }}
-            sha=${{ github.sha }}
+            tag=${{ github.sha }}
           labels: |
             name=${{ env.IMAGE_NAME }}
 
