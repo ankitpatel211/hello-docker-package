@@ -9,7 +9,7 @@ Try docker commands by following below steps inorder to push container registry 
 1. Create an image
 2. Run an image for a desire output
 3. Create a PAT (personal access token) for a personal authentication
-4. Authenticate yourself by logging in for a github account access
+4. Authorize yourself for a github account access
 5. Push an image using your github account
 
 #### Token & username authentication
